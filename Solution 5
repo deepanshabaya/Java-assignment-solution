@@ -1,0 +1,24 @@
+//Write a Java program to declare and initialize variables of different data types (int, double, String) with appropriate identifiers.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+
+// declaring and initialising with default values
+	int age = 0;
+	String name = "";
+	double weight = 0.0;
+	
+	System.out.println("Enter name , age , weight of the person");
+	name = sc.nextLine();
+	
+	age=sc.nextInt();
+	
+	weight= sc.nextDouble();
+	
+	System.out.println("Name is: " + name + " age is: " + age + " weight is: " + weight);
+
+	}
+}
